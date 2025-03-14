@@ -78,3 +78,15 @@ bash
 Copy
 Edit
 terraform -v
+
+
+If you want to upload a file called myfile.txt from your local machine to the home directory of your EC2 instance:<img width="854" alt="image" src="https://github.com/user-attachments/assets/d8908e7a-b2de-43e6-9814-29a1a3848dd4" />
+
+
+bash
+Copy
+Edit
+scp -i /home/user/my-aws-key.pem /home/user/myfile.txt ubuntu@54.123.45.67:/home/ubuntu/
+Replace /home/user/my-aws-key.pem with the actual path to your private key.
+Replace /home/user/myfile.txt with the file you want to upload.
+Replace 54.123.45.67 with your EC2 instance's public IP.
