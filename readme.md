@@ -68,3 +68,14 @@ scp -i /home/user/my-aws-key.pem /home/user/myfile.txt ubuntu@54.123.45.67:/home
 Replace /home/user/my-aws-key.pem with the actual path to your private key.
 Replace /home/user/myfile.txt with the file you want to upload.
 Replace 54.123.45.67 with your EC2 instance's public IP.
+
+
+
+
+
+
+
+
+
+ssh -i "C:\Users\bhanu\Pictures\graph\graph.pem" ubuntu@3.93.79.25
+ls -l /home/ubuntu/flights-performance-zip
